@@ -7,14 +7,14 @@ header{ padding: 0px;
 	  background: #ccc;
 	  text-align: center;
 	  border: solid;
-	  margin: auto;
+	  margin: autox;
 	  margin-bottom: auto;
 	  overflow: auto;
 	  }
 
 #container{
 		width:1400px;
-		height: 1138px;
+		height: 1006px;
 		margin-left: auto;
 		margin-right: auto;
 		background-color:grey;
@@ -83,7 +83,7 @@ input{
     border: solid;
     padding: 23px;
     margin-left: 960px;
-    margin-top: -638px;
+    margin-top: -453px;
 }
 
 label{
@@ -111,21 +111,17 @@ p{
 	text-indent: 25px;
 }
 
-.photos{
-
-	float: left;
-}
-
 
 
 footer{
   padding: 50px;
+  height: 300px
   color: #333;
   background: #ccc;
   text-align: center;
   border: solid;
-  margin-top: 489px;
-
+  margin-top: 400px;
+  
 
 }
 
