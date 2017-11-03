@@ -1,3 +1,5 @@
+
+
 body{background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -13,28 +15,32 @@ header{ padding: 0px;
 	  }
 
 #container{
-		width:1400px;
-		height: 1006px;
-		margin-left: auto;
-		margin-right: auto;
+		
+		margin: auto;
+		width:1640px;
+		height: 1138px;
+		padding-bottom: 130px;
 		background-color:grey;
+    	border-bottom-width: 216px;
+    	padding-bottom: 70px;
 }
 
 #name {	
 	font-size: 50px;
 	background: #246E5B;
     color: white;
-    width: 500px;
-    padding: 3px;
-    margin-left: 97px;
+    width: 470px;
+    padding: 39px;
+    margin-left: 87px;
+    margin-top: 0px;
     
 	
 }
 
 #nav {float: left;
 	  color: black;
-	  margin-left: 1068px;
-	  margin-top: -95px;
+	  margin-left: 1242px;
+	  margin-top: -84px;
 	  font-size: xx-large;	  
 
 }
@@ -58,14 +64,16 @@ input{
 	padding-left: : 100px;
 	padding-right: 150px;
 	width: 1000px;
-	margin-left: 50px;
 }
 
-#content{padding: 25px;
+#content{padding: 27px;
 	overflow: auto;
 	background-color: white;
-	margin: 37px;
+	margin: -26px;
 	border: solid;
+	margin-top: 141px;
+    margin-right: -32px;
+    margin-left: 84px;
 
 }
 
@@ -83,12 +91,14 @@ input{
     height: 200px;
     border: solid;
     padding: 23px;
-    margin-left: 960px;
-    margin-top: -453px;
+    margin-left: 1143px;
+    margin-top: -839px;
 }
 
+
+
 label{
-	font-size: 18px;
+	font-size: x-large;
 }
 
 .input {
@@ -105,24 +115,41 @@ label{
 .icons{
 		float: left;
 		margin: 15px;
-
 }
+
 
 p{	
 	text-indent: 25px;
+	font-size: 25px;
+}
+
+.photos{
+
+	
+}
+
+
+#thumbnails{
+
+	padding-left: 50px;
+}
+
+
+.pictures{
+	float: left;
+	padding: 5px;
 }
 
 
 
 footer{
   padding: 50px;
-  height: 300px
   color: #333;
   background: #ccc;
   text-align: center;
   border: solid;
-  margin-top: 400px;
-  
+  margin-top: 670px;
+
 
 }
 

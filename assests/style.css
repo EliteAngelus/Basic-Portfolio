@@ -13,28 +13,33 @@ header{ padding: 0px;
 	  }
 
 #container{
-		width:1400px;
+		width:1800px;
 		height: 1138px;
 		margin-left: auto;
 		margin-right: auto;
+		padding-bottom: 130px;
 		background-color:grey;
+		margin-bottom: 179px;
+    	border-bottom-width: 216px;
+    	padding-bottom: 100px;
 }
 
 #name {	
 	font-size: 50px;
 	background: #246E5B;
     color: white;
-    width: 500px;
-    padding: 3px;
-    margin-left: 97px;
+    width: 470px;
+    padding: 39px;
+    margin-left: 87px;
+    margin-top: 0px;
     
 	
 }
 
 #nav {float: left;
 	  color: black;
-	  margin-left: 1068px;
-	  margin-top: -95px;
+	  margin-left: 1352px;
+	  margin-top: -84px;
 	  font-size: xx-large;	  
 
 }
@@ -55,16 +60,18 @@ input{
 
 
 .box{
-	padding-left: : 100px;
-	padding-right: 150px;
+	padding: 0px;
 	width: 1000px;
 }
 
-#content{padding: 25px;
+#content{padding: 27px;
 	overflow: auto;
 	background-color: white;
-	margin: 100px;
+	margin: -26px;
 	border: solid;
+	margin-top: 80px;
+    margin-left: 86px;
+    margin-right: 0px;
 
 }
 
@@ -82,12 +89,14 @@ input{
     height: 200px;
     border: solid;
     padding: 23px;
-    margin-left: 960px;
-    margin-top: -606px;
+    margin-left: 1261px;
+    margin-top: -826px;
 }
 
+
+
 label{
-	font-size: 18px;
+	font-size: x-large;
 }
 
 .input {
@@ -109,11 +118,12 @@ label{
 
 p{	
 	text-indent: 25px;
+	font-size: 25px;
 }
 
 .photos{
 
-	float: left;
+	
 }
 
 
@@ -124,7 +134,7 @@ footer{
   background: #ccc;
   text-align: center;
   border: solid;
-  margin-top: 489px;
+  margin-top: 642px;
 
 
 }
