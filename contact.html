@@ -1,92 +1,68 @@
 <!DOCTYPE html>
-
 <html>
+<title>Basic Portfolio</title>
+
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-	<title></title>
 </head>
+<style>
+
+</style>
+
 <body>
+    <!-- Navigation bar -->
+    <!-- Navigation bar fixed to the top of the page. -->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Jeffrey Francois</a>
+        <form class="form-inline">
+            <a href="index.html">Index</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="Contact.html">Contact</a>
+        </form>
+    </nav>
+    <header>
 
-	<link rel="stylesheet" type="text/css" href="./assests/style2.css">
+    </header>
 
-<div id="container">
+    <div class="contact-container">
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <br>
+            <div class="social">
 
+                <p class="About"><strong>Connect with me</strong> <br>
+                    <a href="https://github.com/EliteAngelus" target="_blank"><img class="icons" src="./assets/images/git.png" width="120" height="95"></a>
+                    <a href="https://www.linkedin.com/in/jeffrey-francois-9b36125b/" target="_blank"><img class="icons" src="./assets/images/linked.png" width="100" height="95"></a>
+                </p>
+            </div>
 
-<div id="heading">
-	<header>
-
-		<div id="name">
-
-			<p>Jeffrey Francois</p>
-
-		</div>
-
-			 <nav id="nav"> <a href="index.html">About</a> 
-			 	
-			 	   <a href="portfolio.html">Porfolio</a> 
-			 	
-			 	<a href="contact.html">Contact</a>
-
-			 </nav>	
-
-			
-
-
-</div>
-
-</header>	
-
-
-<div class="box">
-
-<label>First Name</label><br><br>
-<input class="input" type="text" name="firstname" placeholder="Your name..">
-
-<br><br>
-
-<label>Email</label><br><br>
-<input class="input" type="text" name="Email" placeholder="example@gmail.com">
-
-<br><br>
-
-<label>Message</label><br><br>
-<textarea placeholder="Message" style="height: 200px; width: 808px; border: solid"></textarea>
-	
-
-
-
-
-</div>
-
-
-
-<div id="social">
-	
-<p id="About"><strong>Connect with me</strong> <br>
-
-	<a href="https://github.com/EliteAngelus" target="_blank"><img class ="icons" src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" width="120" height="95"></a>
-
-	<a href="https://www.linkedin.com/in/jeffrey-francois-9b36125b/" target="_blank"><img class="icons" src="https://b-i.forbesimg.com/greatspeculations/files/2013/12/256px-Linkedin_icon.svg_.png" width="100" height="95"></a>
-
-
-</p>
-	
-</div>
-
-<div>
-
-<footer> ©Copyright 2017 Jeffrey Francois</footer> 
-
-</div>
-
-	</div>
-		
-		</div>
+        </div>
+    </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        Copyright 2017
+    </div>
 </body>
-
-
 
 </html>
